@@ -1,0 +1,42 @@
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: bisque;
+}
+header{
+    background-color: #c11926;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    
+  
+    
+}
+
+header h1{
+    color: aliceblue;
+    
+}
+.barraPesquisa{
+    
+      flex: 1;
+      display: flex;
+      margin: 0 20px;
+      padding: 8px;
+      border: none;
+      border-radius: 3px 0 0 3px;
+      width: 100px;
+        
+      
+}
+.cep{
+    color: aliceblue;
+    display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
